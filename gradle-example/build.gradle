@@ -30,7 +30,7 @@ buildscript {
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 
-def globalVersion = new Version(currentVersion)
+def globalVersion = new Version('2.0')
 
 allprojects {
   apply plugin: 'artifactory'
