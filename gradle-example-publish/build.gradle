@@ -138,6 +138,7 @@ artifactory {
         defaults {
             //publishIvy & publishPom are true by default
             publishArtifacts = true
+            publishIvy = true
             publications('mavenJava','ivyJava')
             properties = ['qa.level': 'basic']
             properties {
