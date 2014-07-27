@@ -28,18 +28,22 @@
 
 buildscript {
     repositories {
-        maven { url 'http://repo.jfrog.org/artifactory/gradle-plugins-snapshots' }
+        maven { url 'http://oss.jfrog.org/repo' }
     }
     dependencies {
-        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.1.x-SNAPSHOT')
+        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '3.0.x-SNAPSHOT')
+
     }
     configurations.classpath {
+	
         resolutionStrategy {
+		resolutionStrategy.force "commons-codec:commons-codec:1.6"
             failOnVersionConflict()
             cacheDynamicVersionsFor 0, 'seconds'
             cacheChangingModulesFor 0, 'seconds'
         }
     }
+	
 }
 
 import java.text.SimpleDateFormat
@@ -51,10 +55,11 @@ def javaProjects() {
 }
 
 allprojects {
-    apply plugin: 'artifactory-publish'
+    apply plugin: 'com.jfrog.artifactory'
     group = 'org.jfrog.test.gradle.publish'
     version = globalVersion
     status = version.status
+		
 }
 
 artifactoryPublish.skip = true
@@ -70,12 +75,13 @@ configure(javaProjects()) {
     dependencies {
         testCompile 'junit:junit:4.7'
     }
-    manifest.mainAttributes(provider: 'gradle')
+   // manifest.mainAttributes(provider: 'gradle')
 
     publishing {
         publications {
             mavenJava(MavenPublication) {
                 from components.java
+                artifact(file("$rootDir/gradle.properties")) // deploy arbitrary file
             }
         }
     }
@@ -122,7 +128,7 @@ artifactory {
     contextUrl = 'http://localhost:8081/artifactory'
     publish {
         repository {
-            repoKey = 'gradle-snapshot-local'
+            repoKey = 'gradle-local'
             username = 'admin'
             password = 'password'
             ivy {
