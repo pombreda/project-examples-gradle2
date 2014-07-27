@@ -10,21 +10,23 @@
 */
 
 buildscript {
-  repositories {
-    maven {
-        url "http://jcenter.bintray.com"
-       //url "http://localhost:8081/artifactory/gradle"
-     /** credentials {
-        username = "${artifactory_user}"
-        password = "${artifactory_password}"
-      }*/
+    repositories {
+        maven { url 'http://oss.jfrog.org/repo' }
     }
-
     dependencies {
-      classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.2.2')
-    }
-  }
+        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '3.0.x-SNAPSHOT')
 
+    }
+    configurations.classpath {
+	
+        resolutionStrategy {
+		resolutionStrategy.force "commons-codec:commons-codec:1.6"
+            failOnVersionConflict()
+            cacheDynamicVersionsFor 0, 'seconds'
+            cacheChangingModulesFor 0, 'seconds'
+        }
+    }
+	
 }
 
 import java.text.DateFormat
@@ -33,7 +35,7 @@ import java.text.SimpleDateFormat
 def globalVersion = new Version('2.0')
 
 allprojects {
-  apply plugin: 'artifactory'
+  apply plugin: 'com.jfrog.artifactory-upload'
   apply plugin: 'idea'
   configure(subprojects.findAll { new File(it.projectDir, 'src').directory }) {
     apply plugin: 'java'
