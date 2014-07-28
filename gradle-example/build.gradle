@@ -52,7 +52,7 @@ subprojects {
   apply plugin: 'maven'
 
   if (project.plugins.hasPlugin('java')) {
-    manifest.mainAttributes(provider: 'gradle')
+   // manifest.mainAttributes(provider: 'gradle')
     configurations {
       published
     }
