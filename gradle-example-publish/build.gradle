@@ -31,8 +31,8 @@ buildscript {
         maven { url 'http://oss.jfrog.org/repo' }
     }
     dependencies {
-       // classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '3.0.x-SNAPSHOT')
-          classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.2.2')
+       classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '3.0.x-SNAPSHOT')
+   //  classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.2.2')
     }
     configurations.classpath {
 	
@@ -55,8 +55,8 @@ def javaProjects() {
 }
 
 allprojects {
-    //apply plugin: 'com.jfrog.artifactory'
-    apply plugin: 'artifactory-publish'
+    apply plugin: 'com.jfrog.artifactory'
+    //apply plugin: 'artifactory-publish'
     group = 'org.jfrog.test.gradle.publish'
     version = globalVersion
     status = version.status
