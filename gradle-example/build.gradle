@@ -14,7 +14,7 @@ buildscript {
         maven { url 'http://oss.jfrog.org/repo' }
     }
     dependencies {
-        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '3.0.x-SNAPSHOT')
+        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.2.2')
 
     }
     configurations.classpath {
@@ -35,7 +35,7 @@ import java.text.SimpleDateFormat
 def globalVersion = new Version('2.0')
 
 allprojects {
-  apply plugin: 'com.jfrog.artifactory-upload'
+  apply plugin: 'artifactory'
   apply plugin: 'idea'
   configure(subprojects.findAll { new File(it.projectDir, 'src').directory }) {
     apply plugin: 'java'
