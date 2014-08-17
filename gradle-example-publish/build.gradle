@@ -47,8 +47,8 @@ buildscript {
 }
 
 import java.text.SimpleDateFormat
-
-def globalVersion = new Version('1.2.x-SNAPSHOT')
+def globalVersion = new Version(currentVersion)
+//def globalVersion = new Version('1.2.x-SNAPSHOT')
 
 def javaProjects() {
     subprojects.findAll { new File(it.projectDir, 'src').directory }
