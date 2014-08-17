@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jfrog.test.gradle.publish</groupId>
   <artifactId>webservice</artifactId>
-  <version>1.2.x-20140817080930</version>
+  <version>3.4</version>
   <dependencies>
     <dependency>
       <groupId>org.jfrog.test.gradle.publish</groupId>
       <artifactId>shared</artifactId>
-      <version>1.2.x-20140817080930</version>
+      <version>3.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -39,7 +39,7 @@
     <dependency>
       <groupId>org.jfrog.test.gradle.publish</groupId>
       <artifactId>api</artifactId>
-      <version>1.2.x-20140817080930</version>
+      <version>3.4</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
