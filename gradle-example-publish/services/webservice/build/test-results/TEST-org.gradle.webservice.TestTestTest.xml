@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.gradle.webservice.TestTestTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2014-08-17T10:45:58" hostname="Dima" time="0.075">
+<testsuite name="org.gradle.webservice.TestTestTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2014-08-17T10:54:58" hostname="Dima" time="0.081">
   <properties/>
-  <testcase name="testClasspath" classname="org.gradle.webservice.TestTestTest" time="0.074"/>
-  <testcase name="testApiCompileClasspath" classname="org.gradle.webservice.TestTestTest" time="0.0"/>
+  <testcase name="testApiCompileClasspath" classname="org.gradle.webservice.TestTestTest" time="0.009"/>
+  <testcase name="testClasspath" classname="org.gradle.webservice.TestTestTest" time="0.07"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
