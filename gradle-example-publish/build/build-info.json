@@ -7,7 +7,7 @@
     "buildInfo.env.GROOVY_HOME" : "C:\\software\\Groovy\\Groovy-2.2.1",
     "buildInfo.env.ALLUSERSPROFILE" : "C:\\ProgramData",
     "java.home" : "C:\\software\\java\\jdk1.7.0_45\\jre",
-    "buildInfo.env.BUILD_ID" : "2014-08-17_11-09-07",
+    "buildInfo.env.BUILD_ID" : "2014-08-17_13-44-58",
     "buildInfo.env.LOGGING_CONFIG" : "-Djava.util.logging.config.file=\"C:\\software\\Jenkins\\jenkins-lts-onApche\\conf\\logging.properties\"",
     "buildInfo.env.ProgramW6432" : "C:\\Program Files",
     "buildInfo.env.VBOX_MSI_INSTALL_PATH" : "C:\\software\\Oracle\\VirtualBox\\",
@@ -16,19 +16,21 @@
     "sun.os.patch.level" : "",
     "java.vendor.url" : "http://java.oracle.com/",
     "java.version" : "1.7.0_45",
-    "buildInfo.env.Path" : "C:\\WINDOWS\\System32;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\gradle\\gradle-1.12\\bin;C:\\software\\maven\\apache-maven-3.1.1\\bin;C:\\software\\portable\\PortableApps\\PuTTYPortable\\App\\putty;C:\\Program Files (x86)\\Git\\cmd;C:\\Users\\DimaN\\AppData\\Roaming\\npm;c:\\software\\java\\jdk1.7.0_45\\bin;C:\\software\\mysql\\mysql-5.6.17-winx64\\bin;C:\\software\\mercurial;C:\\software\\ant\\apache-ant-1.9.3\\bin;C:\\software\\mysql\\MySQL Server 5.6\\bin",
+    "buildInfo.env.Path" : "%path%;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\gradle\\gradle-1.12\\bin;C:\\software\\maven\\apache-maven-3.1.1\\bin;C:\\software\\portable\\PortableApps\\PuTTYPortable\\App\\putty;C:\\Program Files (x86)\\Git\\cmd;C:\\Users\\DimaN\\AppData\\Roaming\\npm;c:\\software\\java\\jdk1.7.0_45\\bin;C:\\software\\mysql\\mysql-5.6.17-winx64\\bin;C:\\software\\mercurial;C:\\software\\ant\\apache-ant-1.9.3\\bin;C:\\software\\mysql\\MySQL Server 5.6\\bin",
     "buildInfo.env.USERNAME" : "DimaN",
     "java.vendor.url.bug" : "http://bugreport.sun.com/bugreport/",
     "buildInfo.env._RUNJDB" : "\"c:\\software\\java\\jdk1.7.0_45\\bin\\jdb\"",
     "buildInfo.env.JAVA_EXE" : "c:\\software\\java\\jdk1.7.0_45/bin/java.exe",
     "buildInfo.env.SESSIONNAME" : "Console",
+    "buildInfo.env.JENKINS_INSTALL_DIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
     "buildInfo.env.JOB_URL" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-gradle-example-publish/",
     "buildInfo.env.windir" : "C:\\WINDOWS",
+    "buildInfo.env.URL" : "http://repo.jfrog.org/artifactory/libs-snapshots-local/org/jenkins-ci/plugins/artifactory/2.2.4-SNAPSHOT/artifactory-2.2.4-SNAPSHOT.hpi",
     "buildInfo.env.ProgramFiles" : "C:\\Program Files",
     "user.name" : "DimaN",
     "sun.io.unicode.encoding" : "UnicodeLittle",
     "sun.jnu.encoding" : "Cp1255",
-    "buildInfo.env.BUILD_TAG" : "jenkins-gradle-2-compability-gradle-example-publish-6",
+    "buildInfo.env.BUILD_TAG" : "jenkins-gradle-2-compability-gradle-example-publish-13",
     "java.runtime.name" : "Java(TM) SE Runtime Environment",
     "buildInfo.env.DIRNAME" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-gradle-example-publish\\gradle-example-publish\\",
     "buildInfo.env.PUBLIC" : "C:\\Users\\Public",
@@ -43,12 +45,12 @@
     "buildInfo.env.EXECUTOR_NUMBER" : "0",
     "file.encoding" : "Cp1255",
     "buildInfo.env.CommonProgramFiles(x86)" : "C:\\Program Files (x86)\\Common Files",
-    "sun.java.command" : "org.gradle.launcher.daemon.bootstrap.GradleDaemon 1.12 C:\\Users\\DimaN\\.gradle\\daemon 10800000 a9d8c590-2c5a-4d88-bf8f-24a5d71d211e -XX:MaxPermSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xmx1024m -Dfile.encoding=windows-1255",
+    "sun.java.command" : "org.gradle.launcher.daemon.bootstrap.GradleDaemon 1.12 C:\\Users\\DimaN\\.gradle\\daemon 10800000 1724688e-e729-4b60-9d49-3fbe38d8c530 -XX:MaxPermSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xmx1024m -Dfile.encoding=windows-1255",
     "buildInfo.env.GRADLE_HOME" : "C:\\software\\gradle\\gradle-1.12",
-    "buildInfo.env.BUILD_DISPLAY_NAME" : "#6",
+    "buildInfo.env.BUILD_DISPLAY_NAME" : "#13",
     "buildInfo.env.CATALINA_TMPDIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp",
-    "buildInfo.env.buildInfoConfig.propertiesFile" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp\\buildInfo5405343661769641086.properties",
-    "buildInfo.env.BUILD_URL" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-gradle-example-publish/6/",
+    "buildInfo.env.buildInfoConfig.propertiesFile" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp\\buildInfo8020722190937942386.properties",
+    "buildInfo.env.BUILD_URL" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-gradle-example-publish/13/",
     "buildInfo.env.CATALINA_BASE" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
     "java.io.tmpdir" : "C:\\Users\\DimaN\\AppData\\Local\\Temp\\",
     "buildInfo.env.GRAILS_HOME" : "C:\\software\\Grails\\grails-2.3.7",
@@ -63,7 +65,7 @@
     "buildInfo.env._EXECJAVA" : "start \"Tomcat\" \"c:\\software\\java\\jdk1.7.0_45\\bin\\java\"",
     "sun.desktop" : "windows",
     "java.vm.specification.name" : "Java Virtual Machine Specification",
-    "buildInfo.env.CURRENT_DIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\bin",
+    "buildInfo.env.CURRENT_DIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
     "buildInfo.env.CLASSPATH" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-gradle-example-publish\\gradle-example-publish\\\\gradle\\wrapper\\gradle-wrapper.jar",
     "jna.boot.library.path" : "C:\\Users\\DimaN\\.gradle\\native\\jna\\win32-amd64",
     "buildInfo.env.NODE_LABELS" : "master",
@@ -86,15 +88,19 @@
     "buildInfo.env.STARTER_MAIN_CLASS" : "org.gradle.wrapper.GradleWrapperMain",
     "java.vm.name" : "Java HotSpot(TM) 64-Bit Server VM",
     "buildInfo.env._SKIP" : "2",
-    "java.library.path" : "C:\\software\\java\\jdk1.7.0_45\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\gradle\\gradle-1.12\\bin;C:\\software\\maven\\apache-maven-3.1.1\\bin;C:\\software\\portable\\PortableApps\\PuTTYPortable\\App\\putty;C:\\Program Files (x86)\\Git\\cmd;C:\\Users\\DimaN\\AppData\\Roaming\\npm;c:\\software\\java\\jdk1.7.0_45\\bin;C:\\software\\mysql\\mysql-5.6.17-winx64\\bin;C:\\software\\mercurial;C:\\software\\ant\\apache-ant-1.9.3\\bin;C:\\software\\mysql\\MySQL Server 5.6\\bin;.",
+    "buildInfo.env.VERSION" : "2.2.4",
+    "buildInfo.env.TO_PATH" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\webapps\\jenkins\\WEB-INF\\plugins\\",
+    "java.library.path" : "C:\\software\\java\\jdk1.7.0_45\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;%path%;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\gradle\\gradle-1.12\\bin;C:\\software\\maven\\apache-maven-3.1.1\\bin;C:\\software\\portable\\PortableApps\\PuTTYPortable\\App\\putty;C:\\Program Files (x86)\\Git\\cmd;C:\\Users\\DimaN\\AppData\\Roaming\\npm;c:\\software\\java\\jdk1.7.0_45\\bin;C:\\software\\mysql\\mysql-5.6.17-winx64\\bin;C:\\software\\mercurial;C:\\software\\ant\\apache-ant-1.9.3\\bin;C:\\software\\mysql\\MySQL Server 5.6\\bin;.",
+    "buildInfo.env.URL_PART_TWO" : "-SNAPSHOT/artifactory-",
     "buildInfo.env.BINTRAY_HOME" : "C:\\work\\bintray",
-    "buildInfo.env.BUILDINFO_PROPFILE" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp\\buildInfo5405343661769641086.properties",
+    "buildInfo.env.BUILDINFO_PROPFILE" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp\\buildInfo8020722190937942386.properties",
     "java.class.version" : "51.0",
     "buildInfo.env.JAVA_HOME" : "c:\\software\\java\\jdk1.7.0_45",
     "buildInfo.env.CommonProgramW6432" : "C:\\Program Files\\Common Files",
     "buildInfo.env.LOCALAPPDATA" : "C:\\Users\\DimaN\\AppData\\Local",
     "buildInfo.env.GIT_URL" : "git@github.com:DimaNJF/project-examples2.git",
     "buildInfo.env.MAINCLASS" : "org.apache.catalina.startup.Bootstrap",
+    "buildInfo.env.TIMESTAMP" : "Sun 08-17-2014@13-35-10.72",
     "java.util.logging.config.file" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\conf\\logging.properties",
     "buildInfo.env.SystemDrive" : "C:",
     "sun.boot.library.path" : "C:\\software\\java\\jdk1.7.0_45\\jre\\bin",
@@ -116,6 +122,7 @@
     "buildInfo.env.OS" : "Windows_NT",
     "buildInfo.env.WORKSPACE" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-gradle-example-publish",
     "buildInfo.env.LOGONSERVER" : "\\\\MicrosoftAccount",
+    "buildInfo.env.URL_FINISH" : "-SNAPSHOT.hpi",
     "java.ext.dirs" : "C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext",
     "buildInfo.env.JRE_HOME" : "c:\\software\\java\\jdk1.7.0_45",
     "buildInfo.env.EXECUTABLE" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\bin\\catalina.bat",
@@ -127,9 +134,10 @@
     "java.vm.vendor" : "Oracle Corporation",
     "buildInfo.env.JENKINS_URL" : "http://10.0.0.213:8080/jenkins/",
     "user.dir" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-gradle-example-publish\\gradle-example-publish",
-    "buildInfo.env.test.adding.dynVar" : "Sun Aug 17 11:09:33 IDT 2014",
+    "buildInfo.env.test.adding.dynVar" : "Sun Aug 17 13:45:50 IDT 2014",
     "buildInfo.env.PROCESSOR_ARCHITECTURE" : "AMD64",
-    "buildInfo.env.BUILD_NUMBER" : "6",
+    "buildInfo.env.BUILD_NUMBER" : "13",
+    "buildInfo.env.=ExitCode" : "00000000",
     "sun.cpu.endian" : "little",
     "buildInfo.env.USERDOMAIN_ROAMINGPROFILE" : "DIMA",
     "buildInfo.env.HOME" : "C:\\Users\\DimaN",
@@ -138,10 +146,12 @@
     "java.class.path" : "C:\\Users\\DimaN\\.gradle\\wrapper\\dists\\gradle-1.12\\lib\\gradle-launcher-1.12.jar",
     "buildInfo.env.GIT_AUTHOR_EMAIL" : "globaltest@jfrog.com",
     "os.arch" : "amd64",
-    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "5dce41d48e42609cfffd27268d563e2a665c3d28",
+    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "641d774403836a2486275f8445f4de88a7991b7e",
+    "buildInfo.env.URL_PART_ONE" : "http://repo.jfrog.org/artifactory/libs-snapshots-local/org/jenkins-ci/plugins/artifactory/",
     "org.gradle.wrapper.properties" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-gradle-example-publish\\gradle-example-publish\\\\gradle\\wrapper\\gradle-wrapper.properties",
     "buildInfo.env.HUDSON_URL" : "http://10.0.0.213:8080/jenkins/",
     "sun.java.launcher" : "SUN_STANDARD",
+    "buildInfo.env.JENKINS_HOME_DIR" : "C:\\Users\\DimaN\\.jenkinsLts",
     "java.vm.specification.vendor" : "Oracle Corporation",
     "buildInfo.env.FP_NO_HOST_CHECK" : "NO",
     "buildInfo.env.APPDATA" : "C:\\Users\\DimaN\\AppData\\Roaming",
@@ -149,15 +159,15 @@
     "buildInfo.env.HOMEPATH" : "\\Users\\DimaN",
     "buildInfo.env.GIT_HOME" : "C:\\software\\Git",
     "java.runtime.version" : "1.7.0_45-b18",
+    "buildInfo.env.GIT_COMMIT" : "641d774403836a2486275f8445f4de88a7991b7e",
     "sun.boot.class.path" : "C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\resources.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\rt.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\sunrsasign.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\jsse.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\jce.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\charsets.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\jfr.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\classes",
-    "buildInfo.env.GIT_COMMIT" : "01884956978036d2e6071d23da1d92a7ea1f679b",
     "buildInfo.env.M2_HOME" : "C:\\software\\maven\\apache-maven-3.1.1",
     "buildInfo.env.HUDSON_SERVER_COOKIE" : "212221206a3a7708",
     "buildInfo.env.GIT_AUTHOR_NAME" : "globaltest",
     "buildInfo.env.CMD_LINE_ARGS" : "clean build artifactoryPublish",
     "user.country" : "GB",
+    "buildInfo.env.HUDSON_COOKIE" : "5837f970-ae14-48a3-93bb-0f5c15211f18",
     "http.keepAlive" : "true",
-    "buildInfo.env.HUDSON_COOKIE" : "bbca4381-a510-4d5b-bf02-5c5cfc9609af",
     "buildInfo.env.CATALINA_HOME" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
     "buildInfo.env.BAMBOO_HOME" : "C:\\Users\\DimaN\\Bamboo-home",
     "java.vendor" : "Oracle Corporation",
@@ -169,7 +179,7 @@
   },
   "version" : "1.0.1",
   "name" : "gradle-2-compability-gradle-example-publish",
-  "number" : "6",
+  "number" : "13",
   "type" : "GRADLE",
   "buildAgent" : {
     "name" : "Gradle",
@@ -179,12 +189,12 @@
     "name" : "Jenkins",
     "version" : "1.565.1"
   },
-  "started" : "2014-08-17T11:09:07.471+0300",
-  "durationMillis" : 38799,
+  "started" : "2014-08-17T13:44:58.112+0300",
+  "durationMillis" : 63237,
   "principal" : "DimaN",
   "artifactoryPrincipal" : "admin",
-  "url" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-gradle-example-publish/6/",
-  "vcsRevision" : "01884956978036d2e6071d23da1d92a7ea1f679b",
+  "url" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-gradle-example-publish/13/",
+  "vcsRevision" : "641d774403836a2486275f8445f4de88a7991b7e",
   "vcsUrl" : "git@github.com:DimaNJF/project-examples2.git",
   "licenseControl" : {
     "runChecks" : false,
@@ -199,39 +209,39 @@
     "buildNumbersNotToBeDiscarded" : [ ]
   },
   "modules" : [ {
-    "id" : "org.jfrog.test.gradle.publish:api:1.2.x-20140817080930",
+    "id" : "org.jfrog.test.gradle.publish:api:3.5",
     "artifacts" : [ {
       "type" : "ivy",
-      "sha1" : "3f0a6164718c5e0f8a02a59ea70d3fca3696c1dc",
-      "md5" : "d380d289aec67265a899869f416ca433",
-      "name" : "ivy-1.2.x-20140817080930.xml"
+      "sha1" : "2c8e16eca46a867c507e6d24d549a55e04dc2d27",
+      "md5" : "00ffcada71f69bef2895e95cf9b308a0",
+      "name" : "ivy-3.5.xml"
     }, {
-      "type" : "properties",
-      "sha1" : "ac03458fa26dcd3d8ab06f9b4b88b4ae6c483126",
-      "md5" : "6b604b2eaaf1d39465601581f51a1107",
-      "name" : "api-1.2.x-20140817080930.properties"
+      "type" : "jar",
+      "sha1" : "938e15797b32df2b40728fd063d2bf5091223b90",
+      "md5" : "fb9b425aa2759108751482739f97a3ef",
+      "name" : "api-3.5.jar"
     }, {
       "type" : "text-txt",
       "sha1" : "30788efb365346a1bcabfa8b2041cd875fdad213",
       "md5" : "eec6c62c171e3907c458b90ca58c6801",
-      "name" : "gradle-settings-1.2.x-20140817080930.txt"
+      "name" : "gradle-settings-3.5.txt"
     }, {
       "type" : "pom",
-      "sha1" : "bc7c0b68cd3c774f1be665425f4db2f5d69d0a13",
-      "md5" : "cff07f5c45a0653a9e7e9a76e4c114f0",
-      "name" : "api-1.2.x-20140817080930.pom"
+      "sha1" : "0a477749a798559bbb607a0181d4f2dfcf7f9a51",
+      "md5" : "aa5c68a6f3dafd3d0b6d4c56f8529f2a",
+      "name" : "api-3.5.pom"
     }, {
-      "type" : "jar",
-      "sha1" : "ccc116cca607f43b33bb8c9c8f387da3216cb4a5",
-      "md5" : "6e7b7f20805cee20534ec37c20b670c5",
-      "name" : "api-1.2.x-20140817080930.jar"
+      "type" : "properties",
+      "sha1" : "e4750e5dddcd18c9caec6a00fe3cffd995068e45",
+      "md5" : "a07425eded3ed5e29a3650f4fe8ed245",
+      "name" : "api-3.5.properties"
     } ],
     "excludedArtifacts" : [ ],
     "dependencies" : [ {
       "type" : "jar",
-      "sha1" : "3da108272fe01e31a6283fa0da0eb71ccd766aa9",
-      "md5" : "cb1544de83212a0a372ebf1d86e44544",
-      "id" : "org.jfrog.test.gradle.publish:shared:1.2.x-20140817080930",
+      "sha1" : "bfd36daf99913915ca8ac1274d6c6848154d21d4",
+      "md5" : "df69dec6c7d8fcd9263cd646ed02f548",
+      "id" : "org.jfrog.test.gradle.publish:shared:3.5",
       "scopes" : [ "compile" ]
     }, {
       "type" : "jar",
@@ -259,49 +269,49 @@
       "scopes" : [ "compile" ]
     } ]
   }, {
-    "id" : "org.jfrog.test.gradle.publish:shared:1.2.x-20140817080930",
+    "id" : "org.jfrog.test.gradle.publish:shared:3.5",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "3da108272fe01e31a6283fa0da0eb71ccd766aa9",
-      "md5" : "cb1544de83212a0a372ebf1d86e44544",
-      "name" : "shared-1.2.x-20140817080930.jar"
-    }, {
-      "type" : "pom",
-      "sha1" : "4ba9621552b7df7fa3627b98952e906bbabf23bc",
-      "md5" : "b331091294d5be7663ac30cadc5234a2",
-      "name" : "shared-1.2.x-20140817080930.pom"
+      "sha1" : "bfd36daf99913915ca8ac1274d6c6848154d21d4",
+      "md5" : "df69dec6c7d8fcd9263cd646ed02f548",
+      "name" : "shared-3.5.jar"
     }, {
       "type" : "properties",
-      "sha1" : "ac03458fa26dcd3d8ab06f9b4b88b4ae6c483126",
-      "md5" : "6b604b2eaaf1d39465601581f51a1107",
-      "name" : "shared-1.2.x-20140817080930.properties"
+      "sha1" : "e4750e5dddcd18c9caec6a00fe3cffd995068e45",
+      "md5" : "a07425eded3ed5e29a3650f4fe8ed245",
+      "name" : "shared-3.5.properties"
+    }, {
+      "type" : "pom",
+      "sha1" : "cd37dea3cdc618d8a4d2c6e90f5ec1a8963f3f77",
+      "md5" : "613d8161aca05b27e0c7d0b0bb609c88",
+      "name" : "shared-3.5.pom"
     } ],
     "excludedArtifacts" : [ ],
     "dependencies" : [ ]
   }, {
-    "id" : "org.jfrog.test.gradle.publish:webservice:1.2.x-20140817080930",
+    "id" : "org.jfrog.test.gradle.publish:webservice:3.5",
     "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "79642df38ebff65b101d20918fa0f6df2e5c846b",
+      "md5" : "e38ad24d032c9280edd8b00c4c5e4364",
+      "name" : "webservice-3.5.pom"
+    }, {
       "type" : "properties",
-      "sha1" : "ac03458fa26dcd3d8ab06f9b4b88b4ae6c483126",
-      "md5" : "6b604b2eaaf1d39465601581f51a1107",
-      "name" : "webservice-1.2.x-20140817080930.properties"
+      "sha1" : "e4750e5dddcd18c9caec6a00fe3cffd995068e45",
+      "md5" : "a07425eded3ed5e29a3650f4fe8ed245",
+      "name" : "webservice-3.5.properties"
     }, {
       "type" : "jar",
-      "sha1" : "c88dd856e30e8f5692a39a378b3b40f5764fc5a1",
-      "md5" : "4346c72283f66814618eb0c80539ade2",
-      "name" : "webservice-1.2.x-20140817080930.jar"
-    }, {
-      "type" : "pom",
-      "sha1" : "fb78a15e5bd73d4e71c24f1d2bb6031eed594914",
-      "md5" : "3b51eabff8ffeb11a480fc803527bc65",
-      "name" : "webservice-1.2.x-20140817080930.pom"
+      "sha1" : "ac8c1c8698bb6392f4db4be7ad23fbb0d9745c95",
+      "md5" : "61797be38b2ea6f9d261f8856e361bfc",
+      "name" : "webservice-3.5.jar"
     } ],
     "excludedArtifacts" : [ ],
     "dependencies" : [ {
       "type" : "jar",
-      "sha1" : "3da108272fe01e31a6283fa0da0eb71ccd766aa9",
-      "md5" : "cb1544de83212a0a372ebf1d86e44544",
-      "id" : "org.jfrog.test.gradle.publish:shared:1.2.x-20140817080930",
+      "sha1" : "bfd36daf99913915ca8ac1274d6c6848154d21d4",
+      "md5" : "df69dec6c7d8fcd9263cd646ed02f548",
+      "id" : "org.jfrog.test.gradle.publish:shared:3.5",
       "scopes" : [ "compile", "runtime", "testCompile", "testRuntime" ]
     }, {
       "type" : "jar",
@@ -329,9 +339,9 @@
       "scopes" : [ "compile", "runtime", "testCompile", "testRuntime" ]
     }, {
       "type" : "jar",
-      "sha1" : "ccc116cca607f43b33bb8c9c8f387da3216cb4a5",
-      "md5" : "6e7b7f20805cee20534ec37c20b670c5",
-      "id" : "org.jfrog.test.gradle.publish:api:1.2.x-20140817080930",
+      "sha1" : "938e15797b32df2b40728fd063d2bf5091223b90",
+      "md5" : "fb9b425aa2759108751482739f97a3ef",
+      "id" : "org.jfrog.test.gradle.publish:api:3.5",
       "scopes" : [ "compile", "runtime", "testCompile", "testRuntime" ]
     }, {
       "type" : "jar",
@@ -349,12 +359,12 @@
   } ],
   "statuses" : [ {
     "status" : "Staged",
-    "comment" : "ww",
+    "comment" : "comment6",
     "repository" : "libs-release-local",
-    "timestamp" : "2014-08-17T11:09:07.471+0300",
+    "timestamp" : "2014-08-17T13:44:58.112+0300",
     "user" : "admin",
     "ciUser" : "DimaN",
-    "timestampDate" : 1408262947471
+    "timestampDate" : 1408272298112
   } ],
   "governance" : {
     "blackDuckProperties" : {
