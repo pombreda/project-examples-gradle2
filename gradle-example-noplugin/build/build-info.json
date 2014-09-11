@@ -1,370 +1,309 @@
 {
-  "name" : "gradle-2-compability-noPlugin",
-  "type" : "GRADLE",
-  "number" : "24",
-  "version" : "1.0.1",
-  "url" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-noPlugin/24/",
-  "modules" : [ {
-    "id" : "org.jfrog.example.gradle:api:2.0",
-    "artifacts" : [ {
-      "name" : "ivy-2.0.xml",
-      "type" : "ivy",
-      "sha1" : "4b5d28505a7c16200c502716fc57b0a47fd6dede",
-      "md5" : "62e3e4d179f4d0ee15f24a09a38635c9"
-    }, {
-      "name" : "api-2.0.jar",
-      "type" : "jar",
-      "sha1" : "9cdc087964aa52ded52ac75bab9bbbaa481522b7",
-      "md5" : "9b3e9adbcba00721131af32bf051cd29"
-    }, {
-      "name" : "api-2.0.pom",
-      "type" : "pom",
-      "sha1" : "e854dbc389bd21388b48d2ab7c7277962a2f2804",
-      "md5" : "c7e67784f8d4e89eae68b7e5ed3b12a9"
-    } ],
-    "dependencies" : [ {
-      "id" : "org.jfrog.example.gradle:shared:2.0",
-      "scopes" : [ "compile" ],
-      "type" : "jar",
-      "sha1" : "73f54f23b61c5897a53cc521de24e982d84e0867",
-      "md5" : "8a947954da409bcc39e79247217d82e7"
-    }, {
-      "id" : "commons-lang:commons-lang:2.4",
-      "scopes" : [ "compile" ],
-      "type" : "jar",
-      "sha1" : "16313e02a793435009f1e458fa4af5d879f6fb11",
-      "md5" : "237a8e845441bad2e535c57d985c8204"
-    }, {
-      "id" : "org.apache.wicket:wicket:1.3.7",
-      "scopes" : [ "compile" ],
-      "type" : "jar",
-      "sha1" : "14dd208c9077c462b813ed41c21c57f6a8153694",
-      "md5" : "4cad3d21b85b369c8b00dfb84e270e02"
-    }, {
-      "id" : "commons-io:commons-io:1.2",
-      "scopes" : [ "compile" ],
-      "type" : "jar",
-      "sha1" : "0ad6ae511ca4608a18317fcb19850fd113bb2ae8",
-      "md5" : "b0bf5f906af5a936992514ed087f1fa2"
-    }, {
-      "id" : "org.slf4j:slf4j-api:1.4.2",
-      "scopes" : [ "compile" ],
-      "type" : "jar",
-      "sha1" : "61fce919969d134a4fa2ba4fd5bf151ea63fce13",
-      "md5" : "2d673736b993aa112fda47b9061e4e48"
-    } ],
-    "excludedArtifacts" : [ ]
-  }, {
-    "id" : "org.jfrog.example.gradle:services:2.0",
-    "artifacts" : [ {
-      "name" : "ivy-2.0.xml",
-      "type" : "ivy",
-      "sha1" : "0a91bbb28e74babe3dce6d8145e6b55b4220a505",
-      "md5" : "754946e7d252db58a7e4abe86c1593bf"
-    } ],
-    "dependencies" : [ ],
-    "excludedArtifacts" : [ ]
-  }, {
-    "id" : "org.jfrog.example.gradle:shared:2.0",
-    "artifacts" : [ {
-      "name" : "shared-2.0.pom",
-      "type" : "pom",
-      "sha1" : "7b78b86dc23cea69eea7fdc0f80332e6ca1ce4b7",
-      "md5" : "c327033b54522e6e9fd448dae19e6852"
-    }, {
-      "name" : "shared-2.0.jar",
-      "type" : "jar",
-      "sha1" : "73f54f23b61c5897a53cc521de24e982d84e0867",
-      "md5" : "8a947954da409bcc39e79247217d82e7"
-    }, {
-      "name" : "ivy-2.0.xml",
-      "type" : "ivy",
-      "sha1" : "c0ec5511a6cabe2fab5adec0b7296c128fc6044f",
-      "md5" : "41b2331218d91de906ec0a8467e6df41"
-    } ],
-    "dependencies" : [ ],
-    "excludedArtifacts" : [ ]
-  }, {
-    "id" : "org.jfrog.example.gradle:webservice:2.0",
-    "artifacts" : [ {
-      "name" : "ivy-2.0.xml",
-      "type" : "ivy",
-      "sha1" : "0aa420da95445eb7ef7256b76d9e0116587f6486",
-      "md5" : "44e59d928e361981e3b6e441cf4cb760"
-    }, {
-      "name" : "webservice-2.0.war",
-      "type" : "war",
-      "sha1" : "75f46a2341ba0cc8a3922f1e745ce79213fbdf1c",
-      "md5" : "ff5fe1c6d591d00b580bef591082b64e"
-    }, {
-      "name" : "webservice-2.0.pom",
-      "type" : "pom",
-      "sha1" : "be7e8e34ac660205546fcda578e80921026d2fd3",
-      "md5" : "2310e5eefe567e515e69255a2d277cf9"
-    } ],
-    "dependencies" : [ {
-      "id" : "org.jfrog.example.gradle:shared:2.0",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "73f54f23b61c5897a53cc521de24e982d84e0867",
-      "md5" : "8a947954da409bcc39e79247217d82e7"
-    }, {
-      "id" : "commons-collections:commons-collections:3.2",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "f951934aa5ae5a88d7e6dfaa6d32307d834a88be",
-      "md5" : "7b9216b608d550787bdf43a63d88bf3b"
-    }, {
-      "id" : "commons-io:commons-io:1.2",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "0ad6ae511ca4608a18317fcb19850fd113bb2ae8",
-      "md5" : "b0bf5f906af5a936992514ed087f1fa2"
-    }, {
-      "id" : "commons-lang:commons-lang:2.4",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "16313e02a793435009f1e458fa4af5d879f6fb11",
-      "md5" : "237a8e845441bad2e535c57d985c8204"
-    }, {
-      "id" : "org.apache.wicket:wicket:1.3.7",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "14dd208c9077c462b813ed41c21c57f6a8153694",
-      "md5" : "4cad3d21b85b369c8b00dfb84e270e02"
-    }, {
-      "id" : "org.jfrog.example.gradle:api:2.0",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "9cdc087964aa52ded52ac75bab9bbbaa481522b7",
-      "md5" : "9b3e9adbcba00721131af32bf051cd29"
-    }, {
-      "id" : "org.slf4j:slf4j-api:1.4.2",
-      "scopes" : [ "compile", "runtime" ],
-      "type" : "jar",
-      "sha1" : "61fce919969d134a4fa2ba4fd5bf151ea63fce13",
-      "md5" : "2d673736b993aa112fda47b9061e4e48"
-    } ],
-    "excludedArtifacts" : [ ]
-  } ],
-  "statuses" : [ {
-    "comment" : "comment6c",
-    "timestamp" : "2014-08-17T14:05:56.532+0300",
-    "status" : "Staged",
-    "repository" : "libs-release-local",
-    "user" : "admin",
-    "ciUser" : "DimaN",
-    "timestampDate" : 1408273556532
-  } ],
-  "principal" : "DimaN",
-  "vcsUrl" : "git@github.com:DimaNJF/project-examples2.git",
+  "started" : "2014-12-17T16:39:33.958+0200",
+  "agent" : {
+    "version" : "1.580.1",
+    "name" : "Jenkins"
+  },
   "buildAgent" : {
-    "name" : "Gradle",
-    "version" : "2.0"
+    "version" : "2.0",
+    "name" : "Gradle"
+  },
+  "durationMillis" : -8364282087,
+  "artifactoryPrincipal" : "admin",
+  "statuses" : [ {
+    "timestampDate" : 1418827173958,
+    "user" : "admin",
+    "ciUser" : "root",
+    "repository" : "plugins-release-local",
+    "status" : "Staged",
+    "comment" : "",
+    "timestamp" : "2014-12-17T16:39:33.958+0200"
+  } ],
+  "principal" : "root",
+  "vcsRevision" : "3681c4d8c2a1b6b8b253a58dad75fd27da53f47d",
+  "licenseControl" : {
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : "",
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true
+  },
+  "buildRetention" : {
+    "buildNumbersNotToBeDiscarded" : [ ],
+    "deleteBuildArtifacts" : true,
+    "count" : -1
   },
   "governance" : {
     "blackDuckProperties" : {
+      "runChecks" : false,
       "autoCreateMissingComponentRequests" : false,
       "autoDiscardStaleComponentRequests" : false,
-      "runChecks" : false,
       "includePublishedArtifacts" : false
     }
   },
-  "agent" : {
-    "name" : "Jenkins",
-    "version" : "1.565.1"
-  },
-  "started" : "2014-08-17T14:05:56.532+0300",
-  "vcsRevision" : "29eac6ad474730b375f7df3b196279813194dd3f",
-  "buildRetention" : {
-    "count" : -1,
-    "deleteBuildArtifacts" : true,
-    "buildNumbersNotToBeDiscarded" : [ ]
-  },
-  "licenseControl" : {
-    "runChecks" : false,
-    "includePublishedArtifacts" : false,
-    "autoDiscover" : true,
-    "scopesList" : "",
-    "licenseViolationsRecipientsList" : ""
-  },
-  "artifactoryPrincipal" : "admin",
-  "durationMillis" : 35702,
+  "modules" : [ {
+    "excludedArtifacts" : [ ],
+    "artifacts" : [ {
+      "name" : "ivy-2.0.xml",
+      "md5" : "61377ac31f755d28660fb67121ac2a86",
+      "sha1" : "d5aafe065bc05bed32b6d3ad6aad8ab053e2ac48",
+      "type" : "ivy"
+    }, {
+      "name" : "api-2.0.pom",
+      "md5" : "e465236c1dc8328356ea17b2cb7f7cb1",
+      "sha1" : "e8d0b27107bc38718a35f675246510812ded590c",
+      "type" : "pom"
+    }, {
+      "name" : "api-2.0.jar",
+      "md5" : "310abbc3efcae6a40ce11e8f3a5789b8",
+      "sha1" : "770ba4eda2c0cf034713361e78401562fd45f04a",
+      "type" : "jar"
+    } ],
+    "dependencies" : [ {
+      "scopes" : [ "compile" ],
+      "id" : "org.jfrog.example.gradle:shared:2.0",
+      "md5" : "bd134a24e50d0030135e7cc8c3a7eeae",
+      "sha1" : "0fdf2d0fe852627178ea6b7cf240cb14346456e7",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-lang:commons-lang:2.4",
+      "md5" : "237a8e845441bad2e535c57d985c8204",
+      "sha1" : "16313e02a793435009f1e458fa4af5d879f6fb11",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.apache.wicket:wicket:1.3.7",
+      "md5" : "4cad3d21b85b369c8b00dfb84e270e02",
+      "sha1" : "14dd208c9077c462b813ed41c21c57f6a8153694",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "commons-io:commons-io:1.2",
+      "md5" : "b0bf5f906af5a936992514ed087f1fa2",
+      "sha1" : "0ad6ae511ca4608a18317fcb19850fd113bb2ae8",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile" ],
+      "id" : "org.slf4j:slf4j-api:1.4.2",
+      "md5" : "2d673736b993aa112fda47b9061e4e48",
+      "sha1" : "61fce919969d134a4fa2ba4fd5bf151ea63fce13",
+      "type" : "jar"
+    } ],
+    "id" : "org.jfrog.example.gradle:api:2.0"
+  }, {
+    "excludedArtifacts" : [ ],
+    "artifacts" : [ {
+      "name" : "ivy-2.0.xml",
+      "md5" : "634de310f58e629600a662552b51096e",
+      "sha1" : "4add3c72f4976ea8b0efac1437d4b6c10a1cee99",
+      "type" : "ivy"
+    } ],
+    "dependencies" : [ ],
+    "id" : "org.jfrog.example.gradle:services:2.0"
+  }, {
+    "excludedArtifacts" : [ ],
+    "artifacts" : [ {
+      "name" : "shared-2.0.jar",
+      "md5" : "bd134a24e50d0030135e7cc8c3a7eeae",
+      "sha1" : "0fdf2d0fe852627178ea6b7cf240cb14346456e7",
+      "type" : "jar"
+    }, {
+      "name" : "shared-2.0.pom",
+      "md5" : "271d857ac171cc60f025ac5c8009f8a0",
+      "sha1" : "0cda9543259b58296da1b91ea6e0f553b3046c83",
+      "type" : "pom"
+    }, {
+      "name" : "ivy-2.0.xml",
+      "md5" : "ff5e1d94cddf7bdd44fd1e4a40527326",
+      "sha1" : "058350cc28444780b89a326399ebfd48a78ef735",
+      "type" : "ivy"
+    } ],
+    "dependencies" : [ ],
+    "id" : "org.jfrog.example.gradle:shared:2.0"
+  }, {
+    "excludedArtifacts" : [ ],
+    "artifacts" : [ {
+      "name" : "webservice-2.0.pom",
+      "md5" : "d0428d98b00bcb2501bc365c2c878fdb",
+      "sha1" : "9fc8ec91433601a1dccb89053a4f629edb30b097",
+      "type" : "pom"
+    }, {
+      "name" : "ivy-2.0.xml",
+      "md5" : "ae0a7cdfcd69b27a8f63dac41931556b",
+      "sha1" : "00d678a7de5a43fa7929eb0f7638d1dbc0db487b",
+      "type" : "ivy"
+    }, {
+      "name" : "webservice-2.0.war",
+      "md5" : "003e2a716a14e60d34b734e7332844e6",
+      "sha1" : "008f18354fddc53c37c417be68e79ea120457298",
+      "type" : "war"
+    } ],
+    "dependencies" : [ {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "org.jfrog.example.gradle:shared:2.0",
+      "md5" : "bd134a24e50d0030135e7cc8c3a7eeae",
+      "sha1" : "0fdf2d0fe852627178ea6b7cf240cb14346456e7",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "commons-collections:commons-collections:3.2",
+      "md5" : "7b9216b608d550787bdf43a63d88bf3b",
+      "sha1" : "f951934aa5ae5a88d7e6dfaa6d32307d834a88be",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "commons-io:commons-io:1.2",
+      "md5" : "b0bf5f906af5a936992514ed087f1fa2",
+      "sha1" : "0ad6ae511ca4608a18317fcb19850fd113bb2ae8",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "commons-lang:commons-lang:2.4",
+      "md5" : "237a8e845441bad2e535c57d985c8204",
+      "sha1" : "16313e02a793435009f1e458fa4af5d879f6fb11",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "org.apache.wicket:wicket:1.3.7",
+      "md5" : "4cad3d21b85b369c8b00dfb84e270e02",
+      "sha1" : "14dd208c9077c462b813ed41c21c57f6a8153694",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "org.jfrog.example.gradle:api:2.0",
+      "md5" : "310abbc3efcae6a40ce11e8f3a5789b8",
+      "sha1" : "770ba4eda2c0cf034713361e78401562fd45f04a",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "compile", "runtime" ],
+      "id" : "org.slf4j:slf4j-api:1.4.2",
+      "md5" : "2d673736b993aa112fda47b9061e4e48",
+      "sha1" : "61fce919969d134a4fa2ba4fd5bf151ea63fce13",
+      "type" : "jar"
+    } ],
+    "id" : "org.jfrog.example.gradle:webservice:2.0"
+  } ],
+  "url" : "http://Dima:8080/jenkins/job/gradle-525/48/",
+  "version" : "1.0.1",
+  "name" : "gradle-525",
+  "type" : "GRADLE",
+  "number" : "48",
   "properties" : {
-    "buildInfo.env.NODE_NAME" : "master",
-    "file.encoding.pkg" : "sun.io",
-    "user.language.format" : "he",
-    "buildInfo.env.PATHEXT" : ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.groovy;.gy",
-    "buildInfo.env.GROOVY_HOME" : "C:\\software\\Groovy\\Groovy-2.2.1",
-    "buildInfo.env.ALLUSERSPROFILE" : "C:\\ProgramData",
-    "java.home" : "C:\\software\\java\\jdk1.7.0_45\\jre",
-    "buildInfo.env.BUILD_ID" : "2014-08-17_14-05-56",
-    "buildInfo.env.LOGGING_CONFIG" : "-Djava.util.logging.config.file=\"C:\\software\\Jenkins\\jenkins-lts-onApche\\conf\\logging.properties\"",
-    "buildInfo.env.ProgramW6432" : "C:\\Program Files",
-    "buildInfo.env.VBOX_MSI_INSTALL_PATH" : "C:\\software\\Oracle\\VirtualBox\\",
-    "buildInfo.env.TMP" : "C:\\Users\\DimaN\\AppData\\Local\\Temp",
-    "java.endorsed.dirs" : "c:\\software\\java\\jdk1.7.0_45\\jre\\lib\\endorsed",
-    "sun.os.patch.level" : "",
-    "java.vendor.url" : "http://java.oracle.com/",
-    "java.version" : "1.7.0_45",
-    "buildInfo.env.Path" : "%path%;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\gradle\\gradle-1.12\\bin;C:\\software\\maven\\apache-maven-3.1.1\\bin;C:\\software\\portable\\PortableApps\\PuTTYPortable\\App\\putty;C:\\Program Files (x86)\\Git\\cmd;C:\\Users\\DimaN\\AppData\\Roaming\\npm;c:\\software\\java\\jdk1.7.0_45\\bin;C:\\software\\mysql\\mysql-5.6.17-winx64\\bin;C:\\software\\mercurial;C:\\software\\ant\\apache-ant-1.9.3\\bin;C:\\software\\mysql\\MySQL Server 5.6\\bin",
-    "buildInfo.env.USERNAME" : "DimaN",
-    "java.vendor.url.bug" : "http://bugreport.sun.com/bugreport/",
-    "buildInfo.env._RUNJDB" : "\"c:\\software\\java\\jdk1.7.0_45\\bin\\jdb\"",
-    "buildInfo.env.JAVA_EXE" : "c:\\software\\java\\jdk1.7.0_45/bin/java.exe",
-    "buildInfo.env.SESSIONNAME" : "Console",
-    "buildInfo.env.JENKINS_INSTALL_DIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
-    "buildInfo.env.JOB_URL" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-noPlugin/",
-    "buildInfo.env.windir" : "C:\\WINDOWS",
-    "buildInfo.env.URL" : "http://repo.jfrog.org/artifactory/libs-snapshots-local/org/jenkins-ci/plugins/artifactory/2.2.4-SNAPSHOT/artifactory-2.2.4-SNAPSHOT.hpi",
-    "buildInfo.env.ProgramFiles" : "C:\\Program Files",
-    "user.name" : "DimaN",
-    "sun.io.unicode.encoding" : "UnicodeLittle",
-    "sun.jnu.encoding" : "Cp1255",
-    "buildInfo.env.BUILD_TAG" : "jenkins-gradle-2-compability-noPlugin-24",
-    "java.runtime.name" : "Java(TM) SE Runtime Environment",
-    "buildInfo.env.DIRNAME" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin\\",
-    "buildInfo.env.PUBLIC" : "C:\\Users\\Public",
-    "buildInfo.env.GIT_COMMITTER_NAME" : "globaltest",
-    "buildInfo.env.GIT_BRANCH" : "origin/master",
-    "java.specification.name" : "Java Platform API Specification",
-    "user.timezone" : "Asia/Jerusalem",
-    "buildInfo.env.JAVA_ENDORSED_DIRS" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\endorsed",
-    "user.script" : "",
-    "path.separator" : ";",
-    "java.util.logging.manager" : "org.apache.juli.ClassLoaderLogManager",
-    "buildInfo.env.EXECUTOR_NUMBER" : "0",
-    "file.encoding" : "Cp1255",
-    "buildInfo.env.CommonProgramFiles(x86)" : "C:\\Program Files (x86)\\Common Files",
-    "sun.java.command" : "org.gradle.launcher.daemon.bootstrap.GradleDaemon 2.0 C:\\Users\\DimaN\\.gradle\\daemon 10800000 79136559-dca2-4072-9416-dbf0a8be1eb0 -XX:MaxPermSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xmx1024m -Dfile.encoding=windows-1255",
-    "buildInfo.env.GRADLE_HOME" : "C:\\software\\gradle\\gradle-1.12",
-    "buildInfo.env.BUILD_DISPLAY_NAME" : "#24",
-    "buildInfo.env.CATALINA_TMPDIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp",
-    "buildInfo.env.buildInfoConfig.propertiesFile" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp\\buildInfo5776944408725242027.properties",
-    "buildInfo.env.BUILD_URL" : "http://10.0.0.213:8080/jenkins/job/gradle-2-compability-noPlugin/24/",
-    "buildInfo.env.CATALINA_BASE" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
-    "java.io.tmpdir" : "C:\\Users\\DimaN\\AppData\\Local\\Temp\\",
-    "buildInfo.env.GRAILS_HOME" : "C:\\software\\Grails\\grails-2.3.7",
-    "buildInfo.env.JFROG_COOKBOOKS" : "C:\\software\\chef\\cookbooks",
-    "buildInfo.env.ACTION" : "start",
-    "user.language" : "en",
-    "line.separator" : "\r\n",
-    "buildInfo.env.PSModulePath" : "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\",
-    "buildInfo.env.CATALINA_OPTS" : " -server -Xms1g -Xmx1g -XX:PermSize=128m -XX:MaxPermSize=128m -XX:NewSize=512m -XX:MaxNewSize=512",
-    "java.vm.info" : "mixed mode",
-    "buildInfo.env.HUDSON_HOME" : "C:\\Users\\DimaN\\.jenkinsLts",
-    "buildInfo.env._EXECJAVA" : "start \"Tomcat\" \"c:\\software\\java\\jdk1.7.0_45\\bin\\java\"",
-    "sun.desktop" : "windows",
-    "java.vm.specification.name" : "Java Virtual Machine Specification",
-    "buildInfo.env.CURRENT_DIR" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
-    "buildInfo.env.CLASSPATH" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin\\\\gradle\\wrapper\\gradle-wrapper.jar",
-    "jna.boot.library.path" : "C:\\Users\\DimaN\\.gradle\\native\\jna\\win32-amd64",
-    "buildInfo.env.NODE_LABELS" : "master",
-    "buildInfo.env.USERPROFILE" : "C:\\Users\\DimaN",
-    "buildInfo.env.ComSpec" : "C:\\WINDOWS\\system32\\cmd.exe",
-    "java.awt.printerjob" : "sun.awt.windows.WPrinterJob",
-    "buildInfo.env.WRAPPER_PROPERTIES" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin\\\\gradle\\wrapper\\gradle-wrapper.properties",
-    "buildInfo.env.GIT_COMMITTER_EMAIL" : "globaltest@jfrog.com",
-    "buildInfo.env.PROCESSOR_REVISION" : "3a09",
-    "buildInfo.env.SystemRoot" : "C:\\WINDOWS",
-    "buildInfo.env.TEMP" : "C:\\Users\\DimaN\\AppData\\Local\\Temp",
-    "user.country.format" : "IL",
-    "buildInfo.env.COMPUTERNAME" : "DIMA",
-    "buildInfo.env.HOMEDRIVE" : "C:",
-    "os.name" : "Windows 8",
-    "buildInfo.env.JOB_NAME" : "gradle-2-compability-noPlugin",
-    "java.specification.vendor" : "Oracle Corporation",
-    "buildInfo.env.LOGGING_MANAGER" : "-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager",
-    "buildInfo.env.ProgramFiles(x86)" : "C:\\Program Files (x86)",
-    "buildInfo.env.STARTER_MAIN_CLASS" : "org.gradle.wrapper.GradleWrapperMain",
-    "java.vm.name" : "Java HotSpot(TM) 64-Bit Server VM",
-    "buildInfo.env._SKIP" : "2",
-    "buildInfo.env.VERSION" : "2.2.4",
-    "buildInfo.env.TO_PATH" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\webapps\\jenkins\\WEB-INF\\plugins\\",
-    "java.library.path" : "C:\\software\\java\\jdk1.7.0_45\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;%path%;C:\\software\\CollabNet\\Subversion Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\software\\TortoiseSVN\\bin;C:\\Program Files\\cURL\\bin;c:\\software\\mssql\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\software\\mssql\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;c:\\software\\mssql\\x86\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\software\\WinMerge;C:\\software\\GnuPG\\pub;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\nodejs\\;C:\\software\\HashiCorp\\Vagrant\\bin;C:\\software\\OpenVPN\\bin;C:\\software\\Groovy\\Groovy-2.2.1\\bin;C:\\software\\gradle\\gradle-1.12\\bin;C:\\software\\maven\\apache-maven-3.1.1\\bin;C:\\software\\portable\\PortableApps\\PuTTYPortable\\App\\putty;C:\\Program Files (x86)\\Git\\cmd;C:\\Users\\DimaN\\AppData\\Roaming\\npm;c:\\software\\java\\jdk1.7.0_45\\bin;C:\\software\\mysql\\mysql-5.6.17-winx64\\bin;C:\\software\\mercurial;C:\\software\\ant\\apache-ant-1.9.3\\bin;C:\\software\\mysql\\MySQL Server 5.6\\bin;.",
-    "buildInfo.env.URL_PART_TWO" : "-SNAPSHOT/artifactory-",
-    "buildInfo.env.BINTRAY_HOME" : "C:\\work\\bintray",
-    "buildInfo.env.BUILDINFO_PROPFILE" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\temp\\buildInfo5776944408725242027.properties",
-    "java.class.version" : "51.0",
-    "buildInfo.env.JAVA_HOME" : "c:\\software\\java\\jdk1.7.0_45",
-    "buildInfo.env.CommonProgramW6432" : "C:\\Program Files\\Common Files",
-    "buildInfo.env.LOCALAPPDATA" : "C:\\Users\\DimaN\\AppData\\Local",
-    "buildInfo.env.GIT_URL" : "git@github.com:DimaNJF/project-examples2.git",
-    "buildInfo.env.MAINCLASS" : "org.apache.catalina.startup.Bootstrap",
-    "buildInfo.env.TIMESTAMP" : "Sun 08-17-2014@13-35-10.72",
-    "java.util.logging.config.file" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\conf\\logging.properties",
-    "buildInfo.env.SystemDrive" : "C:",
-    "sun.boot.library.path" : "C:\\software\\java\\jdk1.7.0_45\\jre\\bin",
-    "sun.management.compiler" : "HotSpot 64-Bit Tiered Compilers",
-    "java.awt.graphicsenv" : "sun.awt.Win32GraphicsEnvironment",
-    "user.variant" : "",
-    "buildInfo.env.=C:" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin",
-    "buildInfo.env.TEAMCITY_DATA_PATH" : "C:\\ProgramData\\JetBrains\\TeamCity",
-    "buildInfo.env.TITLE" : "Tomcat",
-    "buildInfo.env.GRADLE_OPTS" : " -Djava.util.logging.config.file=\"C:\\software\\Jenkins\\jenkins-lts-onApche\\conf\\logging.properties\" -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager  -Dorg.gradle.wrapper.properties=\"C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin\\\\gradle\\wrapper\\gradle-wrapper.properties\"",
-    "buildInfo.env.CommonProgramFiles" : "C:\\Program Files\\Common Files",
-    "buildInfo.env.USERDOMAIN" : "DIMA",
-    "java.vm.specification.version" : "1.7",
-    "buildInfo.env.PROCESSOR_LEVEL" : "6",
-    "buildInfo.env.JENKINS_SERVER_COOKIE" : "212221206a3a7708",
-    "buildInfo.env.PROCESSOR_IDENTIFIER" : "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
-    "awt.toolkit" : "sun.awt.windows.WToolkit",
-    "sun.cpu.isalist" : "amd64",
-    "buildInfo.env.OS" : "Windows_NT",
-    "buildInfo.env.WORKSPACE" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin",
-    "buildInfo.env.LOGONSERVER" : "\\\\MicrosoftAccount",
-    "buildInfo.env.URL_FINISH" : "-SNAPSHOT.hpi",
-    "java.ext.dirs" : "C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext",
-    "buildInfo.env.JRE_HOME" : "c:\\software\\java\\jdk1.7.0_45",
-    "buildInfo.env.EXECUTABLE" : "C:\\software\\Jenkins\\jenkins-lts-onApche\\bin\\catalina.bat",
-    "os.version" : "6.2",
-    "buildInfo.env.ProgramData" : "C:\\ProgramData",
-    "buildInfo.env.NUMBER_OF_PROCESSORS" : "8",
-    "user.home" : "C:\\Users\\DimaN",
-    "buildInfo.env.PROMPT" : "$P$G",
-    "java.vm.vendor" : "Oracle Corporation",
-    "buildInfo.env.JENKINS_URL" : "http://10.0.0.213:8080/jenkins/",
-    "user.dir" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin",
-    "buildInfo.env.PROCESSOR_ARCHITECTURE" : "AMD64",
-    "buildInfo.env.BUILD_NUMBER" : "24",
-    "buildInfo.env.=ExitCode" : "00000000",
-    "sun.cpu.endian" : "little",
-    "buildInfo.env.USERDOMAIN_ROAMINGPROFILE" : "DIMA",
-    "buildInfo.env.HOME" : "C:\\Users\\DimaN",
-    "buildInfo.env._RUNJAVA" : "\"c:\\software\\java\\jdk1.7.0_45\\bin\\java\"",
-    "java.vm.version" : "24.45-b08",
-    "java.class.path" : "C:\\Users\\DimaN\\.gradle\\wrapper\\dists\\gradle-2.0\\lib\\gradle-launcher-2.0.jar",
-    "buildInfo.env.GIT_AUTHOR_EMAIL" : "globaltest@jfrog.com",
-    "os.arch" : "amd64",
-    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "f83a9da1229ecc8aca16a55ae7987cf70e65ec49",
-    "buildInfo.env.URL_PART_ONE" : "http://repo.jfrog.org/artifactory/libs-snapshots-local/org/jenkins-ci/plugins/artifactory/",
-    "org.gradle.wrapper.properties" : "C:\\Users\\DimaN\\.jenkinsLts\\workspace\\gradle-2-compability-noPlugin\\gradle-example-noplugin\\\\gradle\\wrapper\\gradle-wrapper.properties",
-    "buildInfo.env.HUDSON_URL" : "http://10.0.0.213:8080/jenkins/",
-    "sun.java.launcher" : "SUN_STANDARD",
-    "buildInfo.env.JENKINS_HOME_DIR" : "C:\\Users\\DimaN\\.jenkinsLts",
-    "java.vm.specification.vendor" : "Oracle Corporation",
-    "buildInfo.env.FP_NO_HOST_CHECK" : "NO",
-    "buildInfo.env.APPDATA" : "C:\\Users\\DimaN\\AppData\\Roaming",
-    "file.separator" : "\\",
-    "buildInfo.env.HOMEPATH" : "\\Users\\DimaN",
-    "buildInfo.env.GIT_HOME" : "C:\\software\\Git",
-    "java.runtime.version" : "1.7.0_45-b18",
-    "sun.boot.class.path" : "C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\resources.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\rt.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\sunrsasign.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\jsse.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\jce.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\charsets.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\lib\\jfr.jar;C:\\software\\java\\jdk1.7.0_45\\jre\\classes",
-    "buildInfo.env.GIT_COMMIT" : "29eac6ad474730b375f7df3b196279813194dd3f",
-    "buildInfo.env.M2_HOME" : "C:\\software\\maven\\apache-maven-3.1.1",
-    "buildInfo.env.HUDSON_SERVER_COOKIE" : "212221206a3a7708",
-    "buildInfo.env.GIT_AUTHOR_NAME" : "globaltest",
-    "buildInfo.env.CMD_LINE_ARGS" : "--stacktrace --init-script C:/software/Jenkins/jenkins-lts-onApche/temp/init-artifactory3459927081546625035gradle clean install artifactoryPublish",
-    "user.country" : "GB",
-    "buildInfo.env.HUDSON_COOKIE" : "3a8a0626-1861-4fc4-b502-e7acf5be7e1c",
-    "http.keepAlive" : "true",
-    "buildInfo.env.CATALINA_HOME" : "C:\\software\\Jenkins\\jenkins-lts-onApche",
-    "buildInfo.env.BAMBOO_HOME" : "C:\\Users\\DimaN\\Bamboo-home",
     "java.vendor" : "Oracle Corporation",
-    "buildInfo.env.JAVA_OPTS" : " -Djava.util.logging.config.file=\"C:\\software\\Jenkins\\jenkins-lts-onApche\\conf\\logging.properties\" -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager",
+    "buildInfo.env.USER" : "admin",
+    "sun.java.launcher" : "SUN_STANDARD",
+    "buildInfo.env.BUILD_TAG" : "jenkins-gradle-525-48",
+    "sun.management.compiler" : "HotSpot Client Compiler",
+    "os.name" : "Linux",
+    "buildInfo.env.PATH" : "/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/tools/java/java-corrent/bin:/opt/tools/maven/apache-maven-latest/bin:/home/admin/bin:/opt/tools/java/java-corrent/bin:/opt/tools/maven/apache-maven-latest/bin",
+    "buildInfo.env.LOGNAME" : "admin",
+    "sun.boot.class.path" : "/opt/tools/java/jdk1.7.0_55/jre/lib/resources.jar:/opt/tools/java/jdk1.7.0_55/jre/lib/rt.jar:/opt/tools/java/jdk1.7.0_55/jre/lib/sunrsasign.jar:/opt/tools/java/jdk1.7.0_55/jre/lib/jsse.jar:/opt/tools/java/jdk1.7.0_55/jre/lib/jce.jar:/opt/tools/java/jdk1.7.0_55/jre/lib/charsets.jar:/opt/tools/java/jdk1.7.0_55/jre/lib/jfr.jar:/opt/tools/java/jdk1.7.0_55/jre/classes",
+    "buildInfo.env.G_BROKEN_FILENAMES" : "1",
+    "buildInfo.env.GIT_COMMITTER_NAME" : "globaltest",
+    "java.vm.specification.vendor" : "Oracle Corporation",
+    "java.runtime.version" : "1.7.0_55-b13",
+    "user.name" : "root",
+    "buildInfo.env.buildInfoConfig.propertiesFile" : "/tmp/buildInfo4580994811154772806.properties",
+    "buildInfo.env.LS_COLORS" : "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:",
+    "buildInfo.env.BUILD_URL" : "http://Dima:8080/jenkins/job/gradle-525/48/",
+    "http.keepAlive" : "true",
+    "user.language" : "en",
     "buildInfo.env.JENKINS_HOME" : "C:\\Users\\DimaN\\.jenkinsLts",
+    "sun.boot.library.path" : "/opt/tools/java/jdk1.7.0_55/jre/lib/i386",
+    "buildInfo.env.M2_HOME" : "/opt/tools/maven/apache-maven-latest",
+    "buildInfo.env.HUDSON_URL" : "http://Dima:8080/jenkins/",
+    "buildInfo.env.WORKSPACE" : "/jenkins-slave/workspace/gradle-525",
+    "buildInfo.env.HUDSON_COOKIE" : "1d9de4f9-ec1d-415f-8162-2671b20a3c42",
+    "java.version" : "1.7.0_55",
+    "user.timezone" : "Asia/Jerusalem",
+    "buildInfo.env.JENKINS_SERVER_COOKIE" : "212221206a3a7708",
+    "buildInfo.env.BUILD_ID" : "2014-12-17_16-39-33",
+    "sun.arch.data.model" : "32",
+    "buildInfo.env.GIT_AUTHOR_EMAIL" : "globaltest@jfrog.com",
+    "buildInfo.env.GIT_COMMITTER_EMAIL" : "globaltest@jfrog.com",
+    "java.endorsed.dirs" : "/opt/tools/java/jdk1.7.0_55/jre/lib/endorsed",
+    "sun.cpu.isalist" : "",
+    "sun.jnu.encoding" : "UTF-8",
+    "file.encoding.pkg" : "sun.io",
+    "buildInfo.env.XFILESEARCHPATH" : "/usr/dt/app-defaults/%L/Dt",
+    "buildInfo.env.TERM" : "xterm",
+    "file.separator" : "/",
+    "java.specification.name" : "Java Platform API Specification",
+    "buildInfo.env.JOB_URL" : "http://Dima:8080/jenkins/job/gradle-525/",
+    "java.class.version" : "51.0",
+    "buildInfo.env.LESSOPEN" : "|/usr/bin/lesspipe.sh %s",
+    "user.country" : "US",
+    "java.home" : "/opt/tools/java/jdk1.7.0_55/jre",
+    "java.vm.info" : "mixed mode",
+    "os.version" : "2.6.32-431.el6.i686",
+    "buildInfo.env.EXECUTOR_NUMBER" : "0",
+    "buildInfo.env._" : "/opt/tools/java/java-corrent/bin/java",
+    "path.separator" : ":",
+    "java.vm.version" : "24.55-b03",
+    "buildInfo.env.SELINUX_LEVEL_REQUESTED" : "",
+    "java.awt.printerjob" : "sun.print.PSPrinterJob",
+    "sun.io.unicode.encoding" : "UnicodeLittle",
+    "buildInfo.env.HUDSON_HOME" : "C:\\Users\\DimaN\\.jenkinsLts",
+    "awt.toolkit" : "sun.awt.X11.XToolkit",
+    "buildInfo.env.SHELL" : "/bin/bash",
+    "buildInfo.env.XAUTHORITY" : "/root/.xauthWI2Izy",
+    "buildInfo.env.PWD" : "/jenkins-slave/workspace/gradle-525/gradle-example-noplugin",
+    "buildInfo.env.GIT_BRANCH" : "release-here/master",
+    "buildInfo.env.HOME" : "/root",
+    "user.home" : "/root",
+    "buildInfo.env.BUILDINFO_PROPFILE" : "/tmp/buildInfo4580994811154772806.properties",
+    "buildInfo.env.GIT_COMMIT" : "3681c4d8c2a1b6b8b253a58dad75fd27da53f47d",
+    "java.specification.vendor" : "Oracle Corporation",
+    "buildInfo.env.HISTSIZE" : "1000",
+    "java.library.path" : "/usr/java/packages/lib/i386:/lib:/usr/lib",
+    "java.vendor.url" : "http://java.oracle.com/",
+    "buildInfo.env.JENKINS_URL" : "http://Dima:8080/jenkins/",
+    "java.vm.vendor" : "Oracle Corporation",
+    "buildInfo.env.GIT_AUTHOR_NAME" : "globaltest",
+    "java.runtime.name" : "Java(TM) SE Runtime Environment",
+    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "67753f47897fbb846a5db6dc5c0677322ef8627c",
+    "sun.java.command" : "org.gradle.wrapper.GradleWrapperMain --stacktrace --init-script /tmp/init-artifactory4096268791060658201gradle artifactoryPublish",
+    "java.class.path" : "/jenkins-slave/workspace/gradle-525/gradle-example-noplugin/gradle/wrapper/gradle-wrapper.jar",
+    "buildInfo.env.GIT_URL_2" : "git@github.com:DimaNJF/project-examples2.git",
+    "buildInfo.env.SHLVL" : "2",
+    "buildInfo.env.GIT_URL_1" : "git@github.com:DimaNJF/project-examples2.git",
+    "org.gradle.appname" : "gradlew",
+    "org.gradle.wrapper.properties" : "/jenkins-slave/workspace/gradle-525/gradle-example-noplugin/gradle/wrapper/gradle-wrapper.properties",
+    "java.vm.specification.name" : "Java Virtual Machine Specification",
+    "buildInfo.env.HOSTNAME" : "localhost.localdomain",
+    "java.vm.specification.version" : "1.7",
+    "sun.os.patch.level" : "unknown",
+    "buildInfo.env.OLDPWD" : "/",
+    "sun.cpu.endian" : "little",
+    "buildInfo.env.SSH_CONNECTION" : "10.0.0.132 65296 10.0.0.151 22",
+    "java.io.tmpdir" : "/tmp",
+    "buildInfo.env.BUILD_DISPLAY_NAME" : "#48",
+    "buildInfo.env.MAIL" : "/var/spool/mail/admin",
+    "java.vendor.url.bug" : "http://bugreport.sun.com/bugreport/",
+    "buildInfo.env.NODE_NAME" : "vbox",
+    "buildInfo.env.GIT_PREVIOUS_SUCCESSFUL_COMMIT" : "67753f47897fbb846a5db6dc5c0677322ef8627c",
+    "java.awt.graphicsenv" : "sun.awt.X11GraphicsEnvironment",
+    "os.arch" : "i386",
+    "java.ext.dirs" : "/opt/tools/java/jdk1.7.0_55/jre/lib/ext:/usr/java/packages/lib/ext",
+    "user.dir" : "/jenkins-slave/workspace/gradle-525/gradle-example-noplugin",
+    "buildInfo.env.SSH_TTY" : "/dev/pts/1",
+    "line.separator" : "\n",
+    "buildInfo.env.JAVA_HOME" : "/opt/tools/java/java-corrent",
+    "buildInfo.env.NLSPATH" : "/usr/dt/lib/nls/msg/%L/%N.cat",
+    "java.vm.name" : "Java HotSpot(TM) Client VM",
+    "buildInfo.env.SSH_ASKPASS" : "/usr/libexec/openssh/gnome-ssh-askpass",
+    "buildInfo.env.NODE_LABELS" : "vbox",
+    "buildInfo.env.SSH_CLIENT" : "10.0.0.132 65296 22",
+    "buildInfo.env.HUDSON_SERVER_COOKIE" : "212221206a3a7708",
+    "buildInfo.env.DISPLAY" : "localhost:10.0",
+    "file.encoding" : "UTF-8",
+    "buildInfo.env.LANG" : "en_US.UTF-8",
+    "buildInfo.env.BUILD_NUMBER" : "48",
+    "buildInfo.env.HISTCONTROL" : "ignoredups",
+    "buildInfo.env.SELINUX_USE_CURRENT_RANGE" : "",
     "java.specification.version" : "1.7",
-    "buildInfo.env.ANT_HOME" : "C:\\software\\ant\\apache-ant-1.9.3",
-    "sun.arch.data.model" : "64"
+    "buildInfo.env.JOB_NAME" : "gradle-525",
+    "buildInfo.env.SELINUX_ROLE_REQUESTED" : ""
   }
 }
