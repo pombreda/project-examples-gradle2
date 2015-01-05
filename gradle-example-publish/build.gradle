@@ -140,7 +140,7 @@ artifactory {
             //publishIvy & publishPom are true by default
             publishArtifacts = true
             publishIvy = true
-            publications('mavenJava','ivyJava')
+            publications('mavenJava')
             properties = ['qa.level': 'basic']
             properties {
                 archives 'org.jfrog:*:*:*@*', key1: 'val1 only on jars', key2: 'val2 only on jars'
