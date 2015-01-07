@@ -62,7 +62,7 @@ allprojects {
     status = version.status
 		
 }
-
+ 
 artifactoryPublish.skip = true
 
 project('services') {
