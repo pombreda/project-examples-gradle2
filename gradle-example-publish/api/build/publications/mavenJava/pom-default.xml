@@ -4,5 +4,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jfrog.test.gradle.publish</groupId>
   <artifactId>api</artifactId>
-  <version>3.7</version>
+  <version>123373</version>
 </project>
