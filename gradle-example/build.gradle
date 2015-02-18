@@ -21,7 +21,7 @@ buildscript {
 	
         resolutionStrategy {
 		resolutionStrategy.force "commons-codec:commons-codec:1.6"
-            failOnVersionConflict()
+//            failOnVersionConflict()
             cacheDynamicVersionsFor 0, 'seconds'
             cacheChangingModulesFor 0, 'seconds'
         }
