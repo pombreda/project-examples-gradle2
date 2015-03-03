@@ -99,7 +99,8 @@ artifactory {
         //Optional section for configuring Ivy publication (when publishIvy = true). Assumes Maven repo layout if If not specified
         ivyLayout = '[organization]/[module]/ivy-[revision].xml'
         artifactLayout = '[organization]/[module]/[revision]/[module]-[revision](-[classifier]).[ext]'
-        mavenCompatible = false //Convert any dots in an [organization] layout value to path separators, similar to Maven's groupId-to-path conversion. True if not specified      }
+        mavenCompatible = false //Convert any dots in an [organization] layout value to path separators, similar to Maven's groupId-to-path conversion. True if not specified      
+        }
     }
     defaults {
       publishConfigs('archives', 'published')
