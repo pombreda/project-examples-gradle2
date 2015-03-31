@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0">
-  <info organisation="org.jfrog.test.gradle.publish" module="api" revision="3.7" status="integration" publication="20140817135626" e:architecture="amd64"/>
+  <info organisation="org.jfrog.test.gradle.publish" module="api" revision="123377" status="integration" publication="20150331193556" e:architecture="amd64"/>
   <configurations>
     <conf name="default" visibility="public" extends="runtime"/>
     <conf name="runtime" visibility="public"/>
